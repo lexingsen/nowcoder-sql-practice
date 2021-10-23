@@ -1,0 +1,2 @@
+select salaries.emp_no, salaries.salary, salaries.from_date, salaries.to_date, dept_manager.dept_no from salaries inner join 
+dept_manager where salaries.emp_no = dept_manager.emp_no order by salaries.emp_no;
